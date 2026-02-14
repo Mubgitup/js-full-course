@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(25,25,25);
+    color: white;
+    font-family: arial;
+}
+.title{
+    font-size:30px;
+    margin-top: 20px;
+ }
+.move-button{
+    background-color: transparent;
+    height: 110px;
+    width: 110px;
+    border: 3px solid white;
+    margin-left:6px;
+    border-radius: 55px;
+}
+.move-image{
+    height: 55px;
+}
+.result{
+    font-size: 24px;
+    font-weight: bold;
+ }
+.move{
+    font-size: 20px;
+    font-weight: bold;
+  }
+.move-imogi{
+    height: 50px;
+  }
+.scoure{
+    font-size: 20px;
+    font-weight: bold;
+}
+.win{
+   color: green;
+   font-weight: bold;
+}
+.lose{
+    color: red;
+    font-weight: bold;
+ }
+
+.Tie{
+    color: yellow;
+    font-weight: bold;
+}
+.Reset,.auto-play-button{
+    height: 30px;
+    font-weight: 22px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 7px;
+    box-shadow: inset 2px 2px 6px rgb(5, 5, 5);
+    cursor: pointer;
+}
+.Reset:active{
+    color:aqua;
+}
+.auto-play-button:active{
+    color:rgb(46, 14, 226);
+}
+
+

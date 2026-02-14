@@ -1,0 +1,31 @@
+<!DOCTYBE html>
+<html>
+    <head>
+      <title>object</title>
+
+      <style>
+
+      </style>
+
+    </head>
+    <body >
+   
+
+
+      <script>
+        const product={
+          name: 'socks',
+          price: 34
+        };
+        console.log(product);
+        const stringobject=JSON.stringify(product);
+        console.log(stringobject)
+        console.log(JSON.parse(stringobject));
+       console.log( JSON.parse(localStorage.getItem('product')));
+       const {name, price} = product;
+      console.log(name);
+         
+ 
+      </script>
+    </body>
+</html>

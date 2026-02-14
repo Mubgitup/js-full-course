@@ -1,0 +1,36 @@
+<!DOCTYBE html>
+<html>
+    <head>
+      <title>variable-project</title>
+
+      <style>
+
+      </style>
+
+    </head>
+    <body >
+      <p>Cart quantity</p>
+      <button onclick="console.log(`Cart Quantity : ${qantity}`);">show quantity</button>
+      <button  onclick="
+       qantity++;
+       console.log(`Cart Quantity : ${qantity}`); 
+      ">Add to cart</button>
+      <button  onclick="
+       qantity +=2;
+       console.log(`Cart Quantity : ${qantity}`) ">+2</button>
+      <button onclick="
+       qantity +=3;
+       console.log(`Cart Quantity : ${qantity}`) ">+3</button>
+      <button onclick="
+       qantity=0;
+       console.log('the cart has been reseted')
+      console.log(`Cart Quantity : ${qantity}`)  ">reset </button>
+
+
+
+      <script>
+         let qantity=0;
+ 
+      </script>
+    </body>
+</html>

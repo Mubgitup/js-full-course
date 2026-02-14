@@ -1,0 +1,97 @@
+<!DOCTYBE html>
+<html>
+    <head>
+      <title>advanced-function</title>
+
+      <style>
+
+      </style>
+
+    </head>
+    <body >
+       <button class="click-button">Click</button>
+      <script>
+         /*const buttonHtml= document.querySelector('.click-button');
+        const eventLisnner=()=>{
+          console.log('You have clecked it')
+        };
+        buttonHtml.addEventListener('click',eventLisnner);
+        buttonHtml.addEventListener('click',()=>{
+          console.log('You praes enter')
+        });
+       function greting(){
+          console.log("hello");
+        }
+         greting();
+         const function1= function grate(){
+          console.log(8777);
+         }
+         console.log(function1());
+          console.log(function1);
+                 
+          
+          // this function is calle anonymous function 
+          //function with out name
+          const function2=function(){
+          console.log("good job");
+         }
+         console.log(function2());
+          console.log(function2);
+        
+          const object={
+            date: "2022-03-07",
+            fun: function(){
+              console.log(22333);
+            }
+          }
+          object.fun();
+
+
+
+          // this is called synchronous code
+         setTimeout(function(){console.log("this is set time out ")}, 5000) 
+         console.log(5678);
+
+        setInterval(function(){console.log("set interval ")}, 5000) 
+         console.log(8000);
+         ['mubarek','fuad','fila'].forEach(function(value,index){
+          console.log(value);
+          console.log(index);
+         })
+        const arrowFunction = () =>{
+          console.log('console.log');
+        };
+        const oneLineArro= () =>console.log('one line arrow');
+        arrowFunction();
+        oneLineArro();
+          ['mubarek','fuad','fila'].forEach((value,index)=>{
+          console.log(value);
+          console.log(index*7);
+         })
+         const obje ={
+          method: ()=>{
+
+          },
+          method(){
+
+          }
+
+         }*/
+        // filter and  map of an array
+        const arryFilter=[2,6,-4,7,-89,0,76,-23].filter((value,index)=>{
+          /*if (value >= 0) {
+            return true;
+          }else {
+             return false;
+          }*/
+         
+          return value >= 0;
+
+        });
+       console.log(arryFilter);
+        
+        const arrymap=[2,6,-4,7,-89,0,76,-23].map(value=> {return value*2;});
+         console.log(arrymap);
+      </script>
+    </body>
+</html>
